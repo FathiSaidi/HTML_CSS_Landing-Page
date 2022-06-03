@@ -1,0 +1,467 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #eee;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #555555;
+    color: #ffffff;
+    height: 10vh;
+    width: 100%;
+}
+
+.header nav {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header nav h1 {
+    font-size: 28px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.header ul li {
+    display: inline-block;
+    width: 100px;
+    padding: 5px 0;
+    text-align: center;
+    transition: 0.4s;
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+}
+
+.header ul li:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.header ul li:last-of-type {
+    margin-right: 30px;
+}
+
+.container {
+    height: 90vh;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content {
+    padding: 20px 0;
+    width: 55%;
+}
+
+.content h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.main .content h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.main p {
+    font-size: 22px;
+    margin-bottom: 30px; 
+}
+
+.main .content button {
+    background-color: #555555;
+    color: #ffffff;
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition: 0.4s;
+}
+
+.main .content button:hover {
+    background-color: #3a3a3a;
+}
+
+
+.login-form {
+    width: 40%;
+    border: 1px solid  #555555;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.login-form h1 {
+    background-color: #555555;
+    padding: 20px;
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.main .form {
+    padding: 0 20px;
+}
+
+.main .login-form input {
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #555555;
+    transition: .4s;
+}
+
+.main .login-form input[type="submit"] {
+    background-color: #555555;
+    color: #fff;
+    cursor: pointer;
+}
+
+.main .login-form input[type="submit"]:hover {
+    background-color: #3a3a3a;
+}
+
+.main .pass,
+.main .signup_link {
+    margin: 0 3px;
+    margin-bottom: 20px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.main .pass:hover {
+    text-decoration: underline;
+}
+
+.main .signup_link {
+    cursor: initial;
+}
+
+.main .signup_link a {
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    color: #555555;
+}
+
+/************** Register Section **************/
+
+.reg-main {
+    width: 100%;
+    height: 100vh;
+    background-color: #555555;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reg-content {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reg-main .register-form {
+    width: 40%;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #555555;
+    border: 1px solid  #fff;
+}
+
+.reg-main .register-form h1 {
+    background-color: #555;
+    color: #fff;
+    padding: 20px;
+    font-size: 22px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.reg-main .form {
+    padding: 0 20px;
+    background-color: #eee;
+}
+
+.reg-main input {
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #555555;
+    transition: .4s;
+}
+
+.reg-main input:first-of-type {
+    margin-top: 20px;
+}
+
+.reg-main input[type="submit"] {
+    background-color: #555555;
+    color: #fff;
+    cursor: pointer;
+}
+
+.reg-main input[type="submit"]:hover {
+    background-color: #3a3a3a;
+}
+
+.reg-main .content {
+    width: 50%;
+    height: 400px;
+    padding: 20px;
+}
+
+.reg-main .content h1{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.reg-main .content p{
+    font-size: 20px;
+    color: #fff;
+}
+
+.reg-main .content p:first-of-type{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/************** Services Section **************/
+
+.services {
+    width: 100%;
+    background-color: #eee;
+    padding: 100px 0;
+}
+
+.services-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.services .services-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.services .services-header h1 {
+    font-size: 35px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.services .box-services {
+    width: 100%;
+    height: 630px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.services .box {
+    width: 330px;
+    height: 300px;
+    padding: 20px;
+    background-color: #eee;
+    color: #555555;
+    border: 1px solid #555;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.services .box img {
+    height: 70px;
+    width: 70px;
+    margin: 10px 0;
+}
+
+.services .box h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.services .box p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.services .box a {
+    font-size: 17px;
+    background-color: #555555;
+    display: inline-block;
+    color: #fff;
+    width: 180px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    outline: none;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+.services .box a:hover {
+    background-color: #3a3a3a;
+}
+
+
+/************** Services Section **************/
+
+.footer {
+    width: 100%;
+    height: 350px;
+    background-color: #555555;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .box-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .box {
+    width: 330px;
+    padding: 20px;
+}
+
+.footer .box h1 {
+    margin-bottom: 20px;
+
+}
+
+.footer .box ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.footer .box .btn {
+    margin-bottom: 10px;
+    height: 35px;
+    width: 190px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .box .btn:last-of-type {
+    margin-bottom: 0;
+}
+
+.footer .box .btn i {
+    height: 35px;
+    width: 40px;
+    background-color: #2889e4;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.footer .box .btn span {
+    height: 35px;
+    width: 140px;
+    background-color: #2889e4;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+} 
+
+.footer .box .btn i {
+    height: 35px;
+    width: 40px;
+    background-color: #2889e4;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+/* Youtube Button */
+
+.footer .box .yt i {
+    background-color: #c53d25;
+}
+
+.footer .box .yt span {
+    background-color: #c53d25;
+}
+
+/* Instagram Button */
+
+.footer .box .st i {
+    background-color: #df27cf;
+}
+
+.footer .box .st span {
+    background-color: #df27cf;
+} 
+
+/* Github Button */
+
+.footer .box .gt i {
+    background-color: #000000;
+}
+
+.footer .box .gt span {
+    background-color: #000000;
+} 
+
+.footer .box .form  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    text-decoration: none;
+    border: 1px solid silver;
+    margin-bottom: 10px;
+}
+
+.footer .box .form  input[type="submit"] {
+    background-color: #2e2e2e;
+    color: #fff;
+    width: 120px;
+    padding: 10px 0;
+    float: right;
+    cursor: pointer;
+}
+
+.footer .box .form  input[type="submit"]:hover {
+    background-color: #000;
+}
